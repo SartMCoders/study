@@ -1,0 +1,45 @@
+/** Created by TTF.in.ua **/
+@font-face {
+    font-family: 'ArialRegular';
+    src: url('../fonts/Arial-Regular.ttf');
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+p,time,a{
+  font-style: italic;
+  font-family: ArialRegular;
+  font-size: 13px;
+}
+
+time{
+  font-weight: 600;
+  color: #560000;
+}
+
+a{
+ color: #770000;
+}
+
+h1,h2{
+  font-family: ArialRegular;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #1c4e7d;
+}
+
+
+h1 {font-size: 37px;}
+h2 {font-size: 25px;}
+
+
+.main{
+ width: 1230px;
+ margin: 30px auto;
+}
+
+.list{ margin-left: 17px; }
+.list li{ padding-left: 20px; }
