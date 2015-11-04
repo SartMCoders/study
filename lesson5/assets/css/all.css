@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 40px 35px 182px;
+    padding: 40px 25px 182px;
+    font-size: 14px;
+
+}
+
+p{
+    font-style: italic;
+}
+
+ul{
+    font-style: italic;
+}
+
+.container{
+    color: #770000;
+}
+
+div{
+    color: #770000;
+}
+.h1{
+    font-size: 36px;
+    color: #1c4e7d;
+}
+.h2{
+    font-size: 24px;
+    color: #1c4e7d;
+}
