@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 40px 35px 27px;
+}
+.header a {
+    color: #1c4e7d;
+    text-decoration : underline;
+}
+p {
+    margin: 19px 35px 19px 35px;
+}
+a {
+    color: #770000;
+    text-decoration : underline;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 35px 27px 35px;
+}
+ul {
+    margin: 19px 35px 19px 35px;
+    padding-left: 17px;
+}
+body {
+    font-family: "Myriad Pro Regular" serif;
+    color: #414141;
+}
