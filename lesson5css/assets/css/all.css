@@ -12,10 +12,12 @@ h1, h2 {
 }
 p {
     margin: 19px 35px 19px 35px;
+    font-style: italic;
 }
 a {
     color: #770000;
     text-decoration : underline;
+    font-style: italic;
 }
 span {
     font-weight: bold;
