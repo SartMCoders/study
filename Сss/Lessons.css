@@ -1,0 +1,20 @@
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300italic);
+ h1 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	text-decoration: underline;
+ 	color: #1d4e7d;
+ 	font-weight: normal;
+ 	}
+ h2 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	text-decoration: underline;
+ 	color: #1d4e7d;
+ 	font-weight: normal;
+ 	}
+ .red {
+ 	color: #871f1f;
+ }
+ body {
+ 	font-family: 'Roboto', sans-serif;
+ }
