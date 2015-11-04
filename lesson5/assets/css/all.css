@@ -20,11 +20,11 @@ ul{
 div{
     color: #770000;
 }
-.h1{
+.h1 a{
     font-size: 36px;
     color: #1c4e7d;
 }
-.h2{
+.h2 a{
     font-size: 24px;
     color: #1c4e7d;
 }
