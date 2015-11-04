@@ -5,6 +5,7 @@
 h1, h2 {
     font-family: Helvetica, Arial, sans-serif;
     margin: 40px 35px 27px;
+    line-height: 36px;
 }
 .header a {
     color: #1c4e7d;
@@ -13,6 +14,7 @@ h1, h2 {
 p {
     margin: 19px 35px 19px 35px;
     font-style: italic;
+    line-height: 12px;
 }
 a {
     color: #770000;
@@ -23,10 +25,12 @@ span {
     font-weight: bold;
     font-style: italic;
     margin: 0 35px 27px 35px;
+    line-height: 12px;
 }
 ul {
     margin: 19px 35px 19px 35px;
     padding-left: 40px;
+    line-height: 12px;
 }
 body {
     font-family: "Myriad Pro Regular" serif;
