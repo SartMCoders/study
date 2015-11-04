@@ -32,6 +32,6 @@ ul {
     line-height: 1;
 }
 body {
-    font-family: "Myriad Pro Regular" sans-serif;
+    font-family: "Myriad Pro Regular", sans-serif;
     color: #414141;
 }
