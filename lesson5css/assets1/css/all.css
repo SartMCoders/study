@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "TradeGothic BoldTwo", sans-serif;
+    margin: 40px 35px 27px;
+}
+p {
+    margin: 34px 0px 45px 35px;
+    font-style: italic;
+    line-height: 22px;
+    text-align: right;
+    color: #666666;
+    font-size: 16px;
+
+}
+body {
+    font-family: "Arial Regular", sans-serif;
+    color: #414141;
+    line-height: 22px;
+}
+.top {
+    font-family: "Myriad Pro Regular", serif;
+    color: #cd1b72;
+    font-size: 46px;
+    text-align: left;
+    font-style: italic;
+    margin: 0;
+    line-height: 12px;
+}
+.botton {
+    font-family: "Myriad Pro Regular", serif;
+    color: #cd1b72;
+    font-size: 46px;
+    line-height: 12px;
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+}
+article {
+    margin: 30px 46px 50px 26px;
+    border-bottom-style: double;
+    border-bottom-color: #e1e1e1;
+
+}
+blockquote {
+    padding-left: 14px;
+    font-size: 16px;
+}
