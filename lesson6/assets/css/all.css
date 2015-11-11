@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 15px 39px;
+}
+div {
+    line-height: 18px;
+    margin: 25px 20px;
+    font-size: 18px;
+}
+.p1 {
+    font-size: 14px;
+    font-style: italic;
+    color: #666666;
+}
+h3 {
+    font-size: 22px;
+}
+.p2 {
+    font-size: 70px;
+    color: #cd1b72;
+}
+.p3 {
+    font-size: 70px;
+    text-align: right;
+    color: #cd1b72;
+}
