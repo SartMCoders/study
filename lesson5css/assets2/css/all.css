@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 91px 0;
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+div {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.box {
+    background-color: #eceff4;
+
+    border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;
+    -webkit-border-radius: 14px 14px 14px 14px;
+
+    -webkit-box-shadow: inset 0px 0px 40px 13px rgba(0,0,0,0.04);
+    -moz-box-shadow: inset 0px 0px 40px 13px rgba(0,0,0,0.04);
+    box-shadow: inset 0px 0px 40px 13px rgba(0,0,0,0.04);
+}
+html {
+    font-family: "Arial Regular", sans-serif;
+
+}
+section {
+    display: inline-block;
+    margin: 48px 0 48px 48px;
+    width: 408px;
+}
+h1 {
+    font-size: 32px;
+    font-family: "Arial Bolt", sans-serif;
+    margin-bottom: 30px;
+
+}
+.botton {
+    max-width: 932px;
+    margin: 0 auto;
+    color: #e6eaef;
+}
+.brand {
+    background-color: #ffffff;
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+
+    -webkit-box-shadow: 0px 7px 7px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 7px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 7px -3px rgba(0,0,0,0.75);
+}
+
+.buy {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 0px none #000000;
+
+    padding: 16px 25px 16px 18px;
+    background-image: url("../images/gradient.png");
+
+}
+.brand-img {
+    margin: 8px 8px 5px 8px;
+}
+.round {
+    margin: 24px 190px 0 190px;
+}
+.text {
+    color: #555f6e;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.text-botton {
+    font-size: 12px;
+    color: #8e9197;
+}
+
+a {
+    text-decoration: none;
+}
+A:hover{
+    text-decoration: underline;
+}
+
+.logo {
+    float: right;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #b8bbc0;
+    padding: 10px 48px 48px;
+}
+
+.submit {
+    font-size: 14px;
+    color: #ffffff;
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 0px none #000000;
+
+    padding: 12px 29px 12px 27px;
+    background-image: url("../images/gradient-submit.png");
+}
+
+span {
+    color: #444f5c;
+}
+form {
+    float: right;
+}
+
+.address {
+    font-family: "Georgia Regular", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3e4550;
+
+    background-image: url("../images/text-effect.png");
+    background-repeat: no-repeat;
+    background-position: 0 40px;
+}
+.e-mail {
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: none;
+    background-color: #eceff4;
+    height: 40px;
+    width: 270px;
+}
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #87909a;
+    margin: 12px;
+}
+input:-moz-placeholder {
+    font-size: 14px;
+    color: #87909a;
+    margin: 12px;
+}
