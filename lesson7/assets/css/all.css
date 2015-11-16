@@ -1,0 +1,146 @@
+.s1 {
+    background: #eceff4;
+    width: 960px;
+    height: auto;
+    margin: 82px auto 0;
+    padding: 58px 48px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border: 0 solid #000000;
+
+    -webkit-box-shadow: inset 0 0 25px 5px rgba(230,233,239,1);
+    -moz-box-shadow: inset 0 0 25px 5px rgba(230,233,239,1);
+    box-shadow: inset 0 0 25px 5px rgba(230,233,239,1);
+}
+
+.container {
+    width: 408px;
+}
+.container h1 {
+    font-family: Arial Helvetica sans-serif;
+    font-size: 26px;
+}
+
+.a1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    padding: 14px;
+    box-sizing: border-box;
+    width: 180px;
+    height: 72px;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0 solid #000000;
+
+    background: rgba(112,224,255,1);
+    background: -moz-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
+    background: -o-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
+    background: -ms-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70e0ff', endColorstr='#00a0f0', GradientType=0 );
+}
+.a1:hover {
+    background: url("../images/bg-blue.gif");
+}
+
+.a1 a {
+    color: #ffffff;
+}
+
+.img1 {
+    float: right;
+    border: 8px #ffffff solid;
+
+    -webkit-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+    box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container2 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #8e9197;
+    padding-top: 40px;
+}
+
+.h1 {
+    padding-bottom: 21px;
+}
+
+.p1 {
+
+}
+
+.img2 {
+    float: right;
+    padding: 22px 215px 66px 220px;
+}
+
+.bottom {
+    max-width: 960px;
+    margin: 0 225px;
+}
+.s2 {
+    margin: 24px 230px 0;
+}
+.s2p {
+    float: left;
+    font-family: Arial Helvetica sans-serif;
+    font-size: 11px;
+    color: #b5b8bd;
+}
+.img3 {
+    float: right;
+}
+.s3 {
+    background: url("../images/bg-quotes.gif")no-repeat 0 0;
+    margin: 115px 230px 300px;
+}
+.s3 p {
+    float: left;
+}
+.s3 form {
+    float: right;
+}
+.s3 input {
+    height:40px;
+    width: 274px;
+    background-color: #eceff4;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 0 solid #000000;
+}
+.s3 button {
+    height: 40px;
+    width: 102px;
+    font: bold 14px/21px Arial Helvetica sans-serif;
+    color: #ffffff;
+    background: url("../images/bg-sub.gif") repeat-x 0 0;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 0 solid #000000;
+}
+button:hover {
+    text-decoration: underline;
+    background: url("../images/bg-sub-light.gif");
+}
+
