@@ -83,7 +83,7 @@ a {
 }
 
 .p1 {
-
+    font: normal 16px/24px Arial Helvetica sans-serif;
 }
 
 .img2 {
@@ -113,6 +113,8 @@ a {
 }
 .s3 p {
     float: left;
+    color: #3e4550;
+    font: normal 14px/21px Georgia Arial Helvetica sans-serif;
 }
 .s3 form {
     float: right;
