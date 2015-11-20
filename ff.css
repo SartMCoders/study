@@ -1,0 +1,13 @@
+.bgimg {
+    display: block;
+    float: right;
+    border: 8px #ffffff solid;
+
+    -webkit-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+    box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
+
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+}

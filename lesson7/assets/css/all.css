@@ -1,10 +1,14 @@
-.s1 {
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section1 {
     background: #eceff4;
     width: 960px;
     height: auto;
     margin: 82px auto 0;
-    padding: 58px 48px;
-    box-sizing: border-box;
+    padding: 48px 0 65px 48px;
     overflow: auto;
 
     border-radius: 17px;
@@ -21,50 +25,39 @@
     width: 408px;
 }
 .container h1 {
-    font-family: Arial Helvetica sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
 
-.a1 {
-    font-family: Arial, sans-serif;
-    font-size: 36px;
-    padding: 14px;
-    box-sizing: border-box;
-    width: 180px;
+.button1 {
+    display: inline-block;
+    padding: 12px 26px;
+    width: auto;
     height: 72px;
-
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0 solid #000000;
-
-    background: rgba(112,224,255,1);
-    background: -moz-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
-    background: -o-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
-    background: -ms-linear-gradient(top, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
-    background: linear-gradient(to bottom, rgba(112,224,255,1) 0%, rgba(0,160,240,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70e0ff', endColorstr='#00a0f0', GradientType=0 );
+    background: url("../images/bg-sub-blue.gif") repeat 0 0;
+    border-radius: 9px;
 }
-.a1:hover {
+.button1:hover {
     background: url("../images/bg-blue.gif");
 }
-
-.a1 a {
-    color: #ffffff;
+.button1 a {
+    font: normal 36px/21px Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
 }
 
-.img1 {
+
+.bgimg {
+    display: block;
     float: right;
-    border: 8px #ffffff solid;
-
-    -webkit-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
-    -moz-box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
-    box-shadow: -1px 10px 28px -7px rgba(0,0,0,0.63);
-
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px;
+    margin: 15px 48px 0 35px;
+    border: 8px solid #ffffff;
+}
+.imgcircle {
+    float: right;
+    margin: -40px 235px 0 230px;
 }
 
 a {
@@ -72,54 +65,53 @@ a {
 }
 
 .container2 {
-    font-family: Arial, sans-serif;
+    font-family: Arial,Helvetica, sans-serif;
     font-size: 12px;
     color: #8e9197;
     padding-top: 40px;
 }
 
-.h1 {
+.title {
     padding-bottom: 21px;
 }
 
-.p1 {
-    font: normal 16px/24px Arial Helvetica sans-serif;
+.paragraph1 {
+    font: normal 16px/24px Arial, Helvetica, sans-serif;
 }
 
-.img2 {
-    float: right;
-    padding: 22px 215px 66px 220px;
-}
 
-.bottom {
-    max-width: 960px;
-    margin: 0 225px;
+
+.imgbottom {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+
 }
-.s2 {
+.section2 {
     margin: 24px 230px 0;
 }
-.s2p {
+.section2 p {
     float: left;
-    font-family: Arial Helvetica sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #b5b8bd;
 }
-.img3 {
+.clickr {
     float: right;
 }
-.s3 {
-    background: url("../images/bg-quotes.gif")no-repeat 0 0;
+.section3 {
     margin: 115px 230px 300px;
 }
-.s3 p {
+.section3 p {
     float: left;
     color: #3e4550;
-    font: normal 14px/21px Georgia Arial Helvetica sans-serif;
+    font: normal 14px/21px Georgia, Arial, Helvetica, sans-serif;
+    background: url("../images/bg-quotes.gif")no-repeat 0 0;
 }
-.s3 form {
+.section3 form {
     float: right;
 }
-.s3 input {
+.section3 input {
     height:40px;
     width: 274px;
     background-color: #eceff4;
@@ -129,10 +121,11 @@ a {
     -webkit-border-radius: 6px;
     border: 0 solid #000000;
 }
-.s3 button {
+.button2 {
+    display: inline-block;
     height: 40px;
     width: 102px;
-    font: bold 14px/21px Arial Helvetica sans-serif;
+    font: bold 14px/21px Arial, Helvetica, sans-serif;
     color: #ffffff;
     background: url("../images/bg-sub.gif") repeat-x 0 0;
 
@@ -141,8 +134,10 @@ a {
     -webkit-border-radius: 6px;
     border: 0 solid #000000;
 }
-button:hover {
+.button2:hover {
     text-decoration: underline;
     background: url("../images/bg-sub-light.gif");
 }
-
+input {
+    padding: 10px;
+}
